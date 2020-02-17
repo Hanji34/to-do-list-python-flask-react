@@ -864,3 +864,6 @@ backend/env/lib/python3.5/site-packages/python_dotenv-0.11.0.dist-info/METADATA
 backend/env/lib/python3.5/site-packages/python_dotenv-0.11.0.dist-info/RECORD
 backend/env/lib/python3.5/site-packages/python_dotenv-0.11.0.dist-info/top_level.txt
 backend/env/lib/python3.5/site-packages/python_dotenv-0.11.0.dist-info/WHEEL
+backend/app/__pycache__/routes.cpython-35.pyc
+backend/__pycache__/todo.cpython-35.pyc
+backend/app/__pycache__/__init__.cpython-35.pyc
