@@ -6,10 +6,11 @@ export function Todo({ todo, completeTodo, removeTodo }) {
     return (
         <div
             className="todo"
-            style={{ textDecoration: todo.done ? "line-through" : "" }}
         >
-            ID: {todo.id} <br />
-            Description: {todo.description}
+            <div style={{ textDecoration: todo.done ? "line-through" : "" }}>
+                ID: {todo.id} <br />
+                Description: {todo.description}
+            </div>
             <div>
                 <label>Done:</label>
                 <input type="checkbox" checked={todo.done} onClick={() => completeTodo(todo.id)} />
