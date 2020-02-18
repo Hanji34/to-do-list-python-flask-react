@@ -1,15 +1,23 @@
 # to-do-list-python-flask-react
 
-Step by step to run this app:
+## How to run
 
-- Open terminal
-- Go to "/backend" folder
-- Type "python3 -m venv env" and them hit enter
-- Type "source env/bin/activate" and them hit enter
-- Type "pip install -r requirements.txt" and them hit enter
-- Type "flask run" and them hit enter
+### Backend
 
-- Open another terminal
-- Go to "/frontend" folder
-- Type "npm install" and them hit enter
-- Type "npm start" and them hit enter
+With the terminal open on `/backend`
+
+```bash
+python3 -m venv env # to create a new env
+source env/bin/activate # to activate the env just created
+pip install -r requirements.txt # to install all projects requirements
+flask run  # run app
+```
+
+### Frontend
+
+With the terminal open on `/frontend`
+
+```bash
+npm install # to install all projects requirements
+npm start  # run app
+```
