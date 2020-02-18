@@ -1563,3 +1563,4 @@ backend/env/lib/python3.5/site-packages/flask_cors/__pycache__/decorator.cpython
 backend/env/lib/python3.5/site-packages/flask_cors/__pycache__/extension.cpython-35.pyc
 backend/env/lib/python3.5/site-packages/flask_cors/__pycache__/version.cpython-35.pyc
 backend/__pycache__/config.cpython-35.pyc
+backend/app.db
