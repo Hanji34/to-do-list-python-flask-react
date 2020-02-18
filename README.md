@@ -21,3 +21,5 @@ With the terminal open on `/frontend`
 npm install # to install all projects requirements
 npm start  # run app
 ```
+
+![](todolist.gif)
