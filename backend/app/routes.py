@@ -38,3 +38,10 @@ def update_todo(todoid):
     todo = Todo.query.get(todoid)
     todo.update_todo()
     return jsonify(todo.to_dict())
+
+@app.route("/todo/<int:todoid>/<descriptiontodo>", methods = ["POST"])
+def update_description_todo(todoid, descriptiontodo):
+    todo = Todo.query.get(todoid)
+    todo.description = descriptiontodo
+    todo.update_description_todo()
+    return jsonify(todo.to_dict())

@@ -11,13 +11,17 @@ export function TodoForm({ addTodo }) {
 
     return (
         <form onSubmit={handleSubmit}>
-            <label>Description: </label>
+            <label htmlFor="description">Description: </label>
             <input
+                id="description"
                 type="text"
                 className="input"
                 value={value}
                 onChange={e => setValue(e.target.value)}
             />
+            <button onClick={handleSubmit} class="btn waves-effect waves-light light-green darken-2" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
         </form>
 
     )

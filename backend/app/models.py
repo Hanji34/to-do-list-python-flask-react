@@ -59,3 +59,8 @@ class Todo(db.Model, BaseModel):
             "description": self.description,
             "done": self.done
         }
+
+    def update_description_todo(self):
+        self.description = self.description
+        self.save()
+        return "Task updated"
