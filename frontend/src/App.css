@@ -5,7 +5,6 @@
 }
 
 .todo-list {
-  grid-template-columns: 1fr 1fr;
   background: #e8e8e8;
   border-radius: 4px;
   padding: 5px;
