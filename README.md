@@ -1,5 +1,9 @@
 # to-do-list-python-flask-react
 
+## About
+
+This project was made using React, React Router, Python, Flask, Flask-CORS, Flask-Migrate and SQLAlchemy
+
 ## How to run
 
 ### Backend
